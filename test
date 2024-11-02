@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Arkisto</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: UpConstruction - v1.3.0
+  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="logo.png" alt="Arkisto Logo">
+        <h1>Arkisto<span>.</span></h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">Welcome to <span>Arkisto</span></h2>
+            <p data-aos="fade-up">Welcome to Arkisto, where your imagination becomes our creation. 
+              We are a premier construction company dedicated to bringing your vision to life.
+               With unparalleled expertise and a passion for innovation, we specialize in 
+               crafting bespoke residential and commercial spaces that inspire and endure. 
+               From concept to completion, Arkisto delivers excellence in every detail, ensuring your dream project exceeds expectations. 
+              Trust us to build your future with integrity, creativity, and precision.</p>
+            <!-- <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+  
+      <div class="carousel-item active">
+        <video class="d-block w-100% h-100%" autoplay loop muted playsinline>
+          <source src="assets/Video/HeroHeader/introvideo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <!-- <div class="carousel-item">
+        <video class="d-block w-100" autoplay loop muted playsinline>
+          <source src="path/to/video2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="carousel-item">
+        <video class="d-block w-100" autoplay loop muted playsinline>
+          <source src="path/to/video3.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+  
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+   -->
+    </div>
+  
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Get Started Section ======= -->
+    <!-- <section id="get-started" class="get-started section-bg">
+      <div class="container">
+
+        <div class="row justify-content-between gy-4">
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+            <div class="content">
+              <h3>Minus hic non reiciendis ea possimus at quia.</h3>
+              <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis
+                ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus
+                dicta.
+              <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt
+                porro magni qui necessitatibus dolorem at animi cupiditate.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="fade">
+            <form action="forms/quote.php" method="post" class="php-email-form">
+              <h3>Get a quote</h3>
+              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero
+                park flows.</p>
+              <div class="row gy-3">
+
+                <div class="col-md-12">
+                  <input type="text" name="name" class="form-control" placeholder="Name" required>
+                </div>
+
+                <div class="col-md-12 ">
+                  <input type="email" class="form-control" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="phone" placeholder="Phone" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+
+                  <button type="submit">Get a quote</button>
+                </div>
+
+              </div>
+            </form>
+          </div> End Quote Form
+
+        </div>
+
+      </div>
+    </section>End Get Started Section -->
+
+    <!-- ======= Constructions Section ======= -->
+    <section id="constructions" class="constructions">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>AT ARKISTO</h2>
+          <p>We specialise in Residential and Commercial Construction, handling everything from initial design and planning to the final build. Our team of skilled professionals is dedicated to creating structures that are aesthetically pleasing, highly functional, and sustainable, using the latest techniques and quality materials.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-1.jpeg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Residential and Commercial Construction.</h4>
+                    <p>From initial design to the final build, we create aesthetically pleasing, functional, and sustainable structures using the latest techniques and quality materials.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-2.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Interior Design</h4>
+                    <p>We deliver bespoke interiors that blend creativity and practicality, reflecting our clients' unique styles and needs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-3.jpeg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Consulting & Project Management</h4>
+                    <p> Our consulting services offer expert guidance on project planning, sustainability, and cost management. We also ensure timely, budget-conscious project delivery through meticulous project management.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-4.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Maintenance</h4>
+                    <p> Repair & Emergency Services: We provide routine inspections, preventative care, and 24/7 emergency response to keep properties in optimal condition and quickly address any urgent issues.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Constructions Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Services</h2>
+          <p>We deliver comprehensive construction solutions, from design to completion, with a focus on sustainability, quality, and seamless project management</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-mountain-city"></i>
+              </div>
+              <h3>Residential Construction</h3>
+              <p>Our company specializes in crafting dream homes tailored to our clients' preferences and needs. From the initial design phase to the final touches, we ensure that every aspect of the construction process is executed with precision and attention to detail.
+                .</p>
+              <a href="service-details.html" class="readmore stretched-link">Learn more <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+              </div>
+              <h3>Commercial Building Construction</h3>
+              <p> Whether it's an office complex, retail space, or industrial facility, we have the expertise to bring your commercial construction projects to life. Our team is dedicated to delivering high-quality, functional spaces that meet the unique requirements of your business.</p>
+              <a href="service-details.html" class="readmore stretched-link">Learn more <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-compass-drafting"></i>
+              </div>
+              <h3>Renovation and Remodeling</h3>
+              <p>Transform your existing property into a modern masterpiece with our renovation and remodeling services. Whether you're looking to update a single room or overhaul the entire structure, we have the skills and resources to exceed your expectations.</p>
+              <a href="service-details.html" class="readmore stretched-link">Learn more <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-trowel-bricks"></i>
+              </div>
+              <h3>Custom Home Design</h3>
+              <p>Work closely with our team of architects and designers to create a one-of-a-kind custom home that reflects your personal style and vision. From conceptualization to completion, we'll collaborate with you every step of the way to ensure your dream home becomes a reality.
+              </p>
+              <a href="service-details.html" class="readmore stretched-link">Learn more <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-helmet-safety"></i>
+              </div>
+              <h3>Project Management</h3>
+              <p>Let us take the stress out of managing your construction project. Our experienced project managers will oversee every aspect of the process, from scheduling and budgeting to quality control and subcontractor coordination, to ensure that your project is completed on time and within budget.</p>
+              <a href="service-details.html" class="readmore stretched-link">Learn more <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+              </div>
+              <h3>Interior Design Coordination</h3>
+              <p>Allow us to seamlessly orchestrate the transformation of your space. Our dedicated team of interior design coordinators will skillfully manage every detail of your project, from conceptualization to execution.</p>
+              <a href="service-details.html" class="readmore stretched-link">Learn more <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Alt Services Section ======= -->
+    <!-- <section id="alt-services" class="alt-services">
+      <div class="container" data-aos="fade-up"> -->
+
+        <!-- <div class="row justify-content-around gy-4">
+          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services.jpg);" data-aos="zoom-in"
+            data-aos-delay="100"></div> -->
+
+          <!-- <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus
+              laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-easel flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                  non provident</p>
+              </div>
+            </div>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-patch-check flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                  deleniti atque</p>
+              </div>
+            </div>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-brightness-high flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Dine Pad</a></h4>
+                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus
+                  aut eligendi omnis</p>
+              </div>
+            </div>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-brightness-high flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Tride clov</a></h4>
+                <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet.
+                  Et eligendi</p>
+              </div>
+            </div>
+
+          </div>
+        </div> -->
+<!-- 
+      </div>
+    </section>End Alt Services Section -->
+
+    <!-- ======= Features Section ======= -->
+    <!-- <section id="features" class="features section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <ul class="nav nav-tabs row  g-2 d-flex">
+
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <h4>Modisit</h4>
+            </a>
+          </li>
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+              <h4>Praesenti</h4>
+            </a>
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+              <h4>Explica</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <h4>Nostrum</h4>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="tab-content">
+
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                data-aos="fade-up" data-aos-delay="100">
+                <h3>Voluptatem dignissimos provident</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/features-1.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Neque exercitationem debitis</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a.
+                    Ipsum neque dolor voluptate nisi sed.</li>
+                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-2.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Voluptatibus commodi accusamu</h3>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a.
+                    Ipsum neque dolor voluptate nisi sed.</li>
+                </ul>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-3.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Omnis fugiat ea explicabo sunt</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-4.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+    <!-- ======= Our Projects Section ======= -->
+    <section id="projects" class="projects" >
+      <div class="container" data-aos="fade-up"  > 
+
+        <div class="section-header">
+          <h2>Our Projects</h2>
+          <p>Our projects showcase innovative design, superior craftsmanship, and a commitment to excellence in both residential and commercial construction.</p>
+        </div>
+
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
+          data-portfolio-sort="original-order" >
+
+          <ul  class="portfolio-flters" data-aos="fade-up" data-aos-delay="100" >
+            <!-- <li data-filter="*" class="filter-active">All</li> -->
+            <li   data-filter=".filter-livingroom" class="filter-active">Living Room</li>
+            <li   data-filter=".filter-diningroom">Dining Room</li>
+            <li   data-filter=".filter-homeoffice">Home Office</li>
+            <li   data-filter=".filter-wardrobe">Wardrobe</li>
+            <li   data-filter=".filter-balcony">Balcony</li>
+            <li   data-filter=".filter-poojaroom">Pooja Room</li>
+            <li   data-filter=".filter-modularkitchen">Modular Kitchen</li>
+            <li   data-filter=".filter-bedroom">Bedroom</li>
+            <li   data-filter=".filter-bathroom">Bathroom</li>
+          </ul><!-- End Projects Filters -->
+
+          <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-livingroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/livingroom/1.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <!-- <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1"
+                    data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a> -->
+                 
+                </div>
+              </div>
+
+              
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-livingroom" >
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/livingroom/2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-livingroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/livingroom/3.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-livingroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/livingroom/4.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-livingroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/livingroom/5.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-livingroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/livingroom/6.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-livingroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/livingroom/7.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-livingroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/livingroom/8.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-livingroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/livingroom/9.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+          
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-diningroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/diningroom/1.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">               
+                </div>
+              </div>
+
+              
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-diningroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/diningroom/2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-diningroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/diningroom/3.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-diningroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/diningroom/4.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-diningroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/diningroom/5.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-diningroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/diningroom/6.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-diningroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/diningroom/7.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-diningroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/diningroom/8.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-diningroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/diningroom/9.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-homeoffice">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/homeoffice/1.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">               
+                </div>
+              </div>
+
+              
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-homeoffice">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/homeoffice/2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-homeoffice">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/homeoffice/3.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-homeoffice">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/homeoffice/4.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-homeoffice">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/homeoffice/5.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-homeoffice">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/homeoffice/6.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-homeoffice">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/homeoffice/7.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-homeoffice">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/homeoffice/8.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-homeoffice">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/homeoffice/9.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wardrobe">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/wardrobe/1.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">           
+                </div>
+              </div>
+
+              
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wardrobe">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/wardrobe/2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wardrobe">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/wardrobe/3.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wardrobe">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/wardrobe/4.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wardrobe">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/wardrobe/5.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wardrobe">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/wardrobe/6.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wardrobe">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/wardrobe/7.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wardrobe">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/wardrobe/8.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wardrobe">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/wardrobe/9.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+
+
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-balcony">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/balcony/1.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">           
+                </div>
+              </div>
+
+              
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-balcony">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/balcony/2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-balcony">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/balcony/3.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-balcony">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/balcony/4.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-balcony">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/balcony/5.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-balcony">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/balcony/6.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-balcony">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/balcony/7.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-balcony">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/balcony/8.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-balcony">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/balcony/9.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+
+
+
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-poojaroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/poojaroom/1.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">           
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-poojaroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/poojaroom/2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-poojaroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/poojaroom/3.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-poojaroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/poojaroom/4.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-poojaroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/poojaroom/5.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-poojaroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/poojaroom/6.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-poojaroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/poojaroom/7.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-poojaroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/poojaroom/8.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-poojaroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/poojaroom/9.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-modularkitchen">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/modularkitchen/1.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">           
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-modularkitchen">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/modularkitchen/2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-modularkitchen">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/modularkitchen/3.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-modularkitchen">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/modularkitchen/4.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-modularkitchen">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/modularkitchen/5.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-modularkitchen">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/modularkitchen/6.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-modularkitchen">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/modularkitchen/7.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-modularkitchen">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/modularkitchen/8.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-modularkitchen">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/modularkitchen/9.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bedroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bedroom/1.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">           
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bedroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bedroom/2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bedroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bedroom/3.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bedroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bedroom/4.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bedroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bedroom/5.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bedroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bedroom/6.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bedroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bedroom/7.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bedroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bedroom/8.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bedroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bedroom/9.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bathroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bathroom/1.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">           
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bathroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bathroom/2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bathroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bathroom/3.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bathroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bathroom/4.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bathroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bathroom/5.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bathroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bathroom/6.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bathroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bathroom/7.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bathroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bathroom/8.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bathroom">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/bathroom/9.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+
+        
+          </div><!-- End Projects Container -->
+
+        </div>
+
+      </div>
+    </section><!-- End Our Projects Section -->
+
+   
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Arkisto</h3>
+              <p>
+                Thalasery, Kannur <br>
+                Mananthavady, Wayanad<br>
+                <strong>Phone:</strong>9888 73 38 38<br>
+                <strong>Email:</strong>contact@arkisto.in<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="https://twitter.com/Arkisto_io" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="https://medium.com/@arkisto.io" class="d-flex align-items-center justify-content-center"><i class="bi bi-medium"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/arkisto-constructions" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>End footer links column
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Product Management</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Graphic Design</a></li>
+            </ul>
+          </div> End footer links column
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Hic solutasetp</h4>
+            <ul>
+              <li><a href="#">Molestiae accusamus iure</a></li>
+              <li><a href="#">Excepturi dignissimos</a></li>
+              <li><a href="#">Suscipit distinctio</a></li>
+              <li><a href="#">Dilecta</a></li>
+              <li><a href="#">Sit quas consectetur</a></li>
+            </ul>
+          </div> End footer links column
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Nobis illum</h4>
+            <ul>
+              <li><a href="#">Ipsam</a></li>
+              <li><a href="#">Laudantium dolorum</a></li>
+              <li><a href="#">Dinera</a></li>
+              <li><a href="#">Trodelas</a></li>
+              <li><a href="#">Flexo</a></li>
+            </ul>
+          </div> End footer links column -->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Arkisto</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
+         
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

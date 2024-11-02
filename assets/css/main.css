@@ -658,7 +658,7 @@ section {
   padding: 12px 15px;
 }
 
-.get-started .php-email-form button[type=submit] {
+.get-started .php-email-form button[type=button] {
   background: var(--color-primary);
   border: 0;
   padding: 10px 30px;
@@ -667,7 +667,7 @@ section {
   border-radius: 4px;
 }
 
-.get-started .php-email-form button[type=submit]:hover {
+.get-started .php-email-form button[type=button]:hover {
   background: rgba(254, 185, 0, 0.8);
 }
 
@@ -1756,7 +1756,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type=button] {
   background: var(--color-primary);
   border: 0;
   padding: 10px 35px;
@@ -1765,7 +1765,7 @@ section {
   border-radius: 5px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type=button]:hover {
   background: rgba(254, 185, 0, 0.8);
 }
 
@@ -2688,3 +2688,7 @@ section {
 .footer .footer-legal .credits a {
   color: var(--color-primary);
 }
+
+
+
+

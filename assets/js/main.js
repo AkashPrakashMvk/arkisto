@@ -210,3 +210,24 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+function sendMessage() {
+  // Get the values from the form
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const subject = document.getElementById('subject').value;
+  const message = document.getElementById('message').value;
+  
+  // Your WhatsApp number in international format (without +)
+  const phoneNumber = '+919888733838'; // Replace with your WhatsApp number
+
+  // Format the WhatsApp message
+  const whatsappMessage = `Name: ${name}%0AEmail: ${email}%0ASubject: ${subject}%0AMessage: ${message}`;
+
+  // WhatsApp URL
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
+
+  // Open the WhatsApp URL in a new tab
+  window.open(whatsappUrl, '_blank');
+}
+
+
