@@ -627,7 +627,21 @@
     body {
       margin: 0;
       background: #f5f5f5;
-      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #555;
     }
 
     .pricing-container {
@@ -638,11 +652,11 @@
     }
 
     .plan {
-      background: linear-gradient(to bottom, #31c4ca, #0190d4);
+      background: linear-gradient(to bottom, #2c878a, #e4e71b);
       border-radius: 20px;
       color: white;
       padding: 30px 25px;
-      width: 280px;
+      width: 300px;
       box-shadow: 0 10px 20px rgba(0,0,0,0.1);
       display: flex;
       flex-direction: column;
@@ -670,7 +684,17 @@
 
     .price {
       font-size: 18px;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 14px;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .description strong {
+      font-weight: bold;
     }
 
     .features {
@@ -709,11 +733,20 @@
   </style>
 </head>
 <body>
+  <div class="section-header">
+          <h2>Build Your Dream with Arkisto</h2>
+          <p>Choose from our expertly designed plans to turn your vision into a lasting reality.</p>
+        </div>
+
+  <header>
+
+
   <div class="pricing-container">
 
     <div class="plan">
-      <h3>K ROYAL</h3>
+      <h3>Arkisto Core</h3>
       <div class="price">₹2,999/sq.ft (Incl. GST)</div>
+      <div class="description">For clients seeking <strong>quality at an affordable range</strong>. Solid, reliable construction with essential features.</div>
       <ul class="features">
         <li>Design & Drawing</li>
         <li>Structure</li>
@@ -728,8 +761,9 @@
     </div>
 
     <div class="plan">
-      <h3>K SUPERIOR</h3>
+      <h3>Arkisto Edge</h3>
       <div class="price">₹2,649/sq.ft (Incl. GST)</div>
+      <div class="description">A step above — combining <strong>  modern design and functional innovation  </strong>  with great value.</div>
       <ul class="features">
         <li>Design & Drawing</li>
         <li>Structure</li>
@@ -744,8 +778,9 @@
     </div>
 
     <div class="plan">
-      <h3>K-PRIME</h3>
+      <h3>Arkisto Elite</h3>
       <div class="price">₹2,299/sq.ft (Incl. GST)</div>
+      <div class="description">Designed for those who prefer <strong>high-end aesthetics</strong>, superior materials, and refined execution.</div>
       <ul class="features">
         <li>Designs & Drawings</li>
         <li>Structure</li>
@@ -761,8 +796,9 @@
     </div>
 
     <div class="plan">
-      <h3>K-CLASSIC</h3>
+      <h3>Arkisto Signature</h3>
       <div class="price">₹2,099/sq.ft (Incl. GST)</div>
+      <div class="description">Our <strong>top-tier, fully customizable plan</strong>. Tailored luxury, unmatched craftsmanship, and exclusive detailing.</div>
       <ul class="features">
         <li>Designs & Drawings</li>
         <li>Structure</li>
@@ -778,6 +814,8 @@
     </div>
 
   </div>
+</body>
+</html>
 
 
 
