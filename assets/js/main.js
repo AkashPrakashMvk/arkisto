@@ -231,5 +231,10 @@ function sendMessage() {
 }
 
 
-
+ function sendWhatsAppMessage(planName) {
+      const phone = '919747566277';
+      const message = `Hello, I'm interested in the ${planName} plan from Arkisto.`;
+      const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+    }
 
