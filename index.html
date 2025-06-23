@@ -617,78 +617,100 @@
     </section> -->
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pricing Plans</title>
+
   <style>
     * {
       box-sizing: border-box;
       font-family: Arial, sans-serif;
     }
+
     body {
       margin: 0;
       background: #f5f5f5;
-      padding: 20px;
+      padding: 40px 20px;
     }
+
     .pricing-container {
       display: flex;
-      gap: 20px;
+      gap: 40px;
       flex-wrap: wrap;
       justify-content: center;
     }
+
     .plan {
       background: linear-gradient(to bottom, #31c4ca, #0190d4);
       border-radius: 20px;
       color: white;
-      padding: 20px;
-      width: 260px;
+      padding: 30px 25px;
+      width: 280px;
       box-shadow: 0 10px 20px rgba(0,0,0,0.1);
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease forwards;
     }
+
+    .plan:nth-child(2) { animation-delay: 0.2s; }
+    .plan:nth-child(3) { animation-delay: 0.4s; }
+    .plan:nth-child(4) { animation-delay: 0.6s; }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
     .plan h3 {
-      margin-top: 0;
+      margin: 0 0 15px 0;
+      font-size: 22px;
     }
+
     .price {
       font-size: 18px;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
     }
+
     .features {
       list-style: none;
       padding: 0;
-      margin: 0 0 20px 0;
+      margin: 0 0 30px 0;
     }
+
     .features li {
       display: flex;
       align-items: center;
-      margin: 10px 0;
+      margin: 12px 0;
     }
+
     .features li::before {
       content: "\2714";
       margin-right: 10px;
       color: #fff;
     }
+
     .build-button {
       background: white;
       color: #0190d4;
       border: none;
-      padding: 10px;
+      padding: 12px;
       border-radius: 30px;
       font-weight: bold;
       cursor: pointer;
-      transition: background 0.3s;
+      transition: background 0.3s, transform 0.3s;
     }
+
     .build-button:hover {
       background: #e6f7ff;
+      transform: scale(1.05);
     }
   </style>
 </head>
 <body>
   <div class="pricing-container">
+
     <div class="plan">
       <h3>K ROYAL</h3>
       <div class="price">₹2,999/sq.ft (Incl. GST)</div>
@@ -754,9 +776,11 @@
       </ul>
       <button class="build-button">Let's Build</button>
     </div>
+
   </div>
-</body>
-</html>
+
+
+
 
 
     
